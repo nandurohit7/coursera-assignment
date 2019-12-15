@@ -60,14 +60,20 @@ body {
 	border: 0;
 }
 
-h1
+.navbar-brand
 {
-	font-family: sans-serif !important;
-	margin-top: 0px;
-	padding-top: 0px;
-	padding-left: 0px;
+padding-bottom: 25px;
 }
 
+.navbar-brand h1
+{
+	font-family: serif !important;
+	margin-top: 0px;
+	
+}
+.navbar-brand a:hover {
+    text-decoration: none;
+}
 /*---------- Desktop version ----------*/
 @media (min-width: 992px) {
   .col-lg-4 {
